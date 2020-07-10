@@ -1,0 +1,90 @@
+# Site settings 配置站点
+title: 'HyeDev study'
+description: '풀스택 개발, 데이터사이언스를 공부하는 학생입니다'
+keywords: 'Django, Python, Java, Algorithm, Javascript'
+url: 'https://hyesoo5115.github.io' # your host
+
+# nav 中文字符空格：&emsp;
+nav: # 最佳体验 六个标签 且最好每个标签不超过4中文字 최고의 체험 여섯 개의 라벨과 한 개의 라벨이 4개의 문자를 넘지 않는 것이 좋아
+  Home: '/'
+  Categories: '/tags.html'
+  Timeline: '/timeline.html'
+  About: '/about.html'
+  DailyBlog: '/friendLink.html'
+
+# 博主
+author: true
+name: '혜수'
+NickName: '햇님'
+webtitle: 'HyeDev study'
+bio: '서울대학교 지구환경과학부 주전공, 계산과학 연합전공, 컴퓨터공학 부전공'
+about: true
+aboutyou: '풀스택 개발, 데이터사이언스를 공부하는 학생입니다 :)'
+portraits: '/assets/profile.jpeg' # your portraits image file path
+
+# SNS
+SNS: true
+SNS-icon: #['Facebook', 'weibo', 'qq', 'github', 'Dribbble', 'Twitter', 'instagram', 'weixin', 'Codepen']
+  mail: 'mailto:hyesoo5115@gmail.com'
+  #weixin: '' # 你的微信二维码存放的地址
+  #qq: '' # 你的qq二维码存放的地址 or http://wpa.qq.com/msgrd?v=3&uin='你的QQ号'&site=qq&menu=yes
+  github: 'https://github.com/hyesoo5115'
+  #Codepen: ''
+  #weibo: ''
+  #instagram: ''
+  #Twitter: ''
+  #Dribbble: ''
+  #Facebook: ''
+  #Google: ''
+  #zhihu: ''
+  #juejin: ''
+  #twitch: ''
+
+# 分页
+paginate: 2
+paginatepath: ['page:num']
+
+# since
+footer:
+  since: 2020
+
+# Markdown
+markdown: kramdown
+kramdown:
+  input: GFM
+# 代码高亮 使用rouge
+highlighter: rouge
+# 代码高亮主题使用pygments主题: autumn\ default\ emacs\ friendly\ manni\ murphy\ pastie\ perldoc\ tango 任选一个你喜欢的主题名称填在下面的单引号中
+pygmentsTheme: 'default'
+
+# 友情链接
+friends:
+  DailyBlog: 'https://blog.naver.com/hyesoo5115'
+
+# 评论 最佳体验 在disqus、livere和Gitment之间三选一
+# disqus 评论
+disqus: false
+disqus_url: '' # https://abc.disqus.com/embed.js
+# 来必力评论
+livere: false
+livere_uid: 'MTAyMC8zNDI2OS8xMDgwNg==' # MTAyMC8zNDI2OS8xMDgwNg==
+# Gitment评论 OAuth Application
+Gitment: false
+Gitment_owner: ''  # github用户名
+Gitment_repo: ''  # github博客存放的仓库名
+client_id: ''  # 注册 OAuth Application 后获得的 client_id
+client_secret: ''  # 注册 OAuth Application 后获得的 client_secret
+
+# Share : weibo, qq, wechat, tencent, douban, qzone, linkedin, diandian, facebook, twitter, google
+social-share: false
+social-share-items: ['qq', 'wechat', 'weibo', 'twitter', 'facebook']
+
+# 百度统计 在baidu-url里填写自己相关的url代码
+baidu: false
+baidu-url: ''
+# 谷歌分析 在google-ID里填写自己在谷歌分析获得的追踪ID
+google: false
+google-ID: ''
+
+# 博客头信息备选颜色（该部分在站点中不充当站点变量，将其写在post的头信息中用来充当页面变量） 블로그 헤드 정보 옵션 색상(이 부분은 스테이션에서 스테이션 변수를 충당하지 않고, 이를 포스트의 머리글에 적어 페이지 변수를 충당)
+color: rgb(154,133,255) rgb(255,90,90) rgb(255,210,32) rgb(98,170,255)
